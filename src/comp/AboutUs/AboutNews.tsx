@@ -66,9 +66,9 @@ export default function AboutNews() {
                     backgroundRepeat: "no-repeat",}}>
            <div className="flex flex-col items-center my-4 overflow-x-hidden overflow-scroll ">
         <div className="flex flex-col gap-4">
-          <div className="md:px-10 px-32 py-5">
+          <div className="md:px-10 px-48 py-5">
             <p className="font-bold text-[40px] text-[rgba(93,95,239,1)]">Our News</p>
-            <p className="md:text-[24px] font-medium">
+            <p className="md:text-[24px] text-[12px] font-medium">
               explore more about World, believe that
               <span className="font-semibold">
                 {" "}
@@ -78,12 +78,12 @@ export default function AboutNews() {
           </div>
 
        
-          <div className="relative w-[700px] mx-auto my-5 md:px-0 px-28 ">
+          <div className="relative md:w-[700px] w-[300px]  mx-auto my-5 md:px-0 ">
             <div className="overflow-hidden" ref={emblaRef}>
               <div className="flex ">
                 {[1, 2, 3, 4].map((_, index) => (
                   <div key={index} className="min-w-full flex items-center justify-center  flex-shrink-0">
-                    <img src={sliderImg} className="w-[500px] rounded-lg" />
+                    <img src={sliderImg} className="md:w-[500px] w-[300px] rounded-lg" />
                   </div>
                 ))}
               </div>
@@ -124,8 +124,8 @@ export default function AboutNews() {
 
 
 
-        <div className="flex flex-col mt-24 bg-red-950/20 h-screen items-center justify-center border-2 border-pink-500 border-r-0 border-l-0 ">
-            <div className="md:px-10 px-16">
+        <div className="flex flex-col mt-24 bg-red-950/20 md:h-screen items-center justify-center border-2 border-pink-500 border-r-0 border-l-0 ">
+            <div className="md:px-10 px-20">
                 <div className="font-bold text-[40px] text-[rgba(93,95,239,1)]">
                 Mission &Vision
             </div>
@@ -134,7 +134,7 @@ export default function AboutNews() {
 and Making of Arab Society's Charisma</p>
             </div>
             </div>
-            <div className="flex justify-center items-center gap-10 text-white">
+            <div className="flex md:flex-row flex-col my-3 justify-center items-center md:gap-10 gap-5 text-white mt-10 px-20">
                 <div className="flex flex-col items-center bg-[rgba(237,163,198,1)] p-3 rounded-lg"><img src={vision3} className="w-[100px]" alt={""} />
                 <p className="font-bold ">independence and empath</p>
                 
@@ -160,11 +160,11 @@ and Making of Arab Society's Charisma</p>
             <div className=" flex md:flex-row flex-col items-center  mt-5 md:gap-14 gap-5 relative">
                 <div className="grow-3"><img src={printer} alt="" className="w-[300px] z-2" /></div>
                 <div className=" w-[500px] flex items-center z-2">
-                    <p className="md:text-[24px] text-[10px] px-14  ">
+                    <p className="md:text-[24px] text-[10px] md:px-10 px-28  ">
                     be number one across the Arab world  introduce several new innovations in the field of journalism and media, as we aim to lead a media revolution from various aspects open wide the doors of fame for talents
                     </p>
                 </div>
-                <img src={papers} alt="" className=" absolute opacity-50 right-[-300px] bottom-0 z-1  " />
+                <img src={papers} alt="" className=" absolute opacity-50 right-[-300px]  bottom-0 z-1  " />
 
             </div>
         </div>
@@ -182,20 +182,20 @@ and Making of Arab Society's Charisma</p>
 
            <div className="p-5 mt-24 h-screen ">
          <div className="flex flex-col items-center  ">
-            <div className="font-bold md:text-[40px] text-[20px] text-[rgba(93,95,239,1)] md:px-0 px-10">
+            <div className="font-bold md:text-[40px] text-[15px] text-[rgba(93,95,239,1)] md:px-0 px-10">
                What our valuable Readers say about us.
             </div>
 
 
 
 
-            <div className="relative w-[700px] mx-auto my-5 md:px-0 px-28 ">
+            <div className="relative  md:w-[700px] w-[300px] mx-auto my-5 md:px-0  ">
             <div className="overflow-hidden" ref={emblaRef2}>
               <div className="flex ">
                 {[1, 2].map((_, index) => (<>
 
                 <div key={index} className="min-w-full flex items-center justify-center  flex-shrink-0">
-                    <img src={review} className="w-[500px] rounded-lg" />
+                    <img src={review} className="md:w-[500px] w-[300px]  rounded-lg" />
                   </div>
                 
                 </>
