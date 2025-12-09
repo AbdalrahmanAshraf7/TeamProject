@@ -91,14 +91,14 @@ export default function AboutNews() {
 
             
             <button
-              className="absolute left-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow"
+              className="absolute left-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow md:block hidden"
               onClick={scrollPrev}
             >
               ◀
             </button>
 
             <button
-              className="absolute right-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow"
+              className="absolute right-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow md:block hidden"
               onClick={scrollNext}
             >
               ▶
@@ -206,14 +206,14 @@ and Making of Arab Society's Charisma</p>
 
             
             <button
-              className="absolute left-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow"
+              className="absolute left-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow md:block hidden"
               onClick={scrollPrev2}
             >
               ◀
             </button>
 
             <button
-              className="absolute right-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow"
+              className="absolute right-[-50px] top-1/2 -translate-y-1/2 bg-white px-2 py-1 rounded shadow md:block hidden"
               onClick={scrollNext2}
             >
               ▶
