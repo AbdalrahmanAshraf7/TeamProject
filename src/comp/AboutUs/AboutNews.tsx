@@ -66,12 +66,11 @@ export default function AboutNews() {
                     backgroundRepeat: "no-repeat",}}>
            <div className="flex flex-col items-center my-4 overflow-x-hidden overflow-scroll ">
         <div className="flex flex-col gap-4">
-          <div className="md:px-10 px-48 py-5">
-            <p className="font-bold text-[40px] text-[rgba(93,95,239,1)]">Our News</p>
-            <p className="md:text-[24px] text-[12px] font-medium">
+          <div className="md:px-10 px-16 py-5">
+            <p className="md:font-bold font-semibold md:text-[40px] text-[15px] text-[rgba(93,95,239,1)]">Our News</p>
+            <p className="md:text-[24px] text-[12px]  font-medium">
               explore more about World, believe that
               <span className="font-semibold">
-                {" "}
                 “As there are a thousand thoughts lying within a man that he does not know till he takes up the pen to write.”
               </span>
             </p>
