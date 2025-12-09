@@ -151,7 +151,7 @@ and Making of Arab Society's Charisma</p>
         </div>
 
 
-       <div className="p-5 my-24 ">
+       <div className="p-5 md:my-24 my-10 ">
          <div className="flex flex-col items-center  ">
             <div className="font-bold text-[40px] text-[rgba(93,95,239,1)]">
                 Our Goals
@@ -179,7 +179,7 @@ and Making of Arab Society's Charisma</p>
 
 
 
-           <div className="p-5 mt-24 h-screen ">
+           <div className="p-5 md:mt-24  h-screen ">
          <div className="flex flex-col items-center  ">
             <div className="font-bold md:text-[40px] text-[15px] text-[rgba(93,95,239,1)] md:px-0 px-10">
                What our valuable Readers say about us.
