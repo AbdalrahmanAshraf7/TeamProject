@@ -1,0 +1,17 @@
+.header-layer-about{
+    background-color: rgba(93, 95, 239, 0.3);
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important; 
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f178b6 !important; 
+  opacity: 1;
+}
+
+.news-bg{
+  background-image: url("/images/img3.png");
+}
