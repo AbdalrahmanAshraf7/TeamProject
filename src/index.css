@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .swiper {
-    /* لنفترض أن حجم النقطة 30px + مسافة 20px أسفلها */
+
     margin-top: 10px !important; 
     margin-bottom: 10px !important; 
 
@@ -16,7 +16,7 @@
 
 
 
-/* السماح بخروج المحتويات خارج السلايدر */
+
 .custom-swiper2 {
   overflow: visible !important;
 }
@@ -45,20 +45,20 @@
 }
 
 .swiper-pagination {
-bottom: -5px !important; /* هذا يحركها 20px أسفل الـ Swiper */
+bottom: -5px !important; 
 left: 0;
 right: 0;
 }
 
 
 .swiper-pagination-bullet {
-  background: rgba(0, 0, 0, 0.3) !important; /* لون النقطة غير المفعّلة */
+  background: rgba(0, 0, 0, 0.3) !important; 
   opacity: 1 !important;
   width: 40px !important;
   height: 40px !important;
 }
 
-/* النقطة المفعّلة */
+
 .swiper-pagination-bullet-active {
   background: #f178b6 !important;
   opacity: 1 !important;
@@ -69,15 +69,15 @@ right: 0;
 
 
 
-/* حجم الأسهم */
+
 .swiper-button-prev,
 .swiper-button-next {
-  color: #f178b6 !important; /* لون السهم */
+  color: #f178b6 !important; 
   width: 50px !important;
   height: 50px !important;
 }
 
-/* حجم أيقونة السهم نفسها */
+
 .swiper-button-prev:after,
 .swiper-button-next:after {
   font-size: 24px !important;
@@ -87,9 +87,9 @@ right: 0;
 
 
 .custom-swiper .swiper-button-next {
-  right: -20px !important; /* حرّك السهم يمين */
+  right: -20px !important; 
 }
 
 .custom-swiper .swiper-button-prev {
-  left: -40px !important; /* حرّك السهم يسار */
+  left: -40px !important; 
 }

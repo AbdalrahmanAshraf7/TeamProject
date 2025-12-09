@@ -27,7 +27,7 @@ export default function AboutNews() {
   const scrollNext2 = () => emblaApi2 && emblaApi2.scrollNext();
   const scrollTo2 = (index:any) => emblaApi2 && emblaApi2.scrollTo(index);
 
-  // Sync bullets
+ 
   useEffect(() => {
     if (!emblaApi) return;
 
