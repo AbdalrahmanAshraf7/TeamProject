@@ -1,4 +1,3 @@
-import React from 'react'
 import Style from "./Support.module.css"
 import getStarted from "../../../public/images/getstrted.png"
 import getStarted2 from "../../../public/images/getstrted(1).png"

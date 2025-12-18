@@ -1,4 +1,3 @@
-import React from 'react'
 import Style from "./Support.module.css"
 import fly from "../../../public/images/butterflies(1).png"
 
