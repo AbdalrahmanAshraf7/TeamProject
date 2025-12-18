@@ -9,6 +9,7 @@ import {
 import LayOut from './comp/LayOut/LayOut';
 import Home from './comp/Home/Home';
 import AboutUsMain from './comp/AboutUs/AmoutUsMain';
+import SupportUs from './comp/SupportUs/SupportUsMain';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         { index : true , element: <Navigate to="home" replace />},
         { path : "home" , element: <Home/> },
         { path : "aboutus" , element: <AboutUsMain/> },
+        { path : "supportus" , element: <SupportUs/> },
       
     ],
     }
