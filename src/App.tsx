@@ -10,6 +10,7 @@ import LayOut from './comp/LayOut/LayOut';
 import Home from './comp/Home/Home';
 import AboutUsMain from './comp/AboutUs/AmoutUsMain';
 import SupportUs from './comp/SupportUs/SupportUsMain';
+import NewsMain from './comp/News/NewsMain';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         { path : "home" , element: <Home/> },
         { path : "aboutus" , element: <AboutUsMain/> },
         { path : "supportus" , element: <SupportUs/> },
+        { path : "news" , element: <NewsMain/> },
       
     ],
     }
