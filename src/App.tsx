@@ -11,6 +11,7 @@ import Home from './comp/Home/Home';
 import AboutUsMain from './comp/AboutUs/AmoutUsMain';
 import SupportUs from './comp/SupportUs/SupportUsMain';
 import NewsMain from './comp/News/NewsMain';
+import CountactUsMain from './comp/ContactUs/CountactUsMain';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         { path : "aboutus" , element: <AboutUsMain/> },
         { path : "supportus" , element: <SupportUs/> },
         { path : "news" , element: <NewsMain/> },
+        { path : "contactus" , element: <CountactUsMain/> },
       
     ],
     }

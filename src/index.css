@@ -92,3 +92,16 @@ right: 0;
 .custom-swiper .swiper-button-prev {
   left: -40px !important; 
 }
+
+
+
+.contactus{
+  background-image: url("../public/images/Rectangle\ 146.png");
+  object-fit: cover;
+}
+
+.contactusfooter{
+  background-image: url("../public/images/Rectangle\ 152.png");
+  object-fit: cover;
+
+}
