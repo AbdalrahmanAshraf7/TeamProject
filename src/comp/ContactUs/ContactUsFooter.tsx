@@ -1,4 +1,3 @@
-import contactFooter from "../../../public/images/Rectangle 152.png"
 export default function ContactUsFooter() {
 
 
